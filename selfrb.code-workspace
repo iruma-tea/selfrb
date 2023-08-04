@@ -9,6 +9,8 @@
 		"files.eol": "\n",
 		"editor.tabSize": 2,
 		"editor.formatOnSave": true,
+		"rufo.exe": "/usr/local/asdf/shims/rufo",
+		"rufo.useBundler": false,
 		"code-runner.runInTerminal": true,
 		"code-runner.executorMap": {
 			"javascript": "node",
