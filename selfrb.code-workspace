@@ -11,6 +11,10 @@
 		"editor.formatOnSave": true,
 		"rufo.exe": "/usr/local/asdf/shims/rufo",
 		"rufo.useBundler": false,
+		"ruby.intellisense": "rubyLocate",
+		"ruby.useLanguageServer": true,
+		"solargraph.definitions": true,
+		"solargraph.diagnostics": true,
 		"code-runner.runInTerminal": true,
 		"code-runner.executorMap": {
 			"javascript": "node",
