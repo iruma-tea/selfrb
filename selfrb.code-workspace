@@ -6,7 +6,7 @@
   ],
   "settings": {
     "[ruby]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "jnbt.vscode-rufo",
       "editor.formatOnSave": true
     },
     "files.encoding": "utf8",
