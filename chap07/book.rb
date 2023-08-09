@@ -6,4 +6,14 @@ class Book
     @title = title
     @memo = memo
   end
+
+  # marshalの挙動の定義
+  def marshal_dump
+    [@isbn, @title]
+  end
+
+  def marshal_load(obj)
+    @isbn = obj[0]
+    @title = obj[1]
+  end
 end
