@@ -6,7 +6,8 @@ exclude:
   - test/**/*
   - vendor/**/*
   - ".bundle/**/*"
-require: []
+require:
+  - net-http
 domains: []
 reporters:
   - rubocop

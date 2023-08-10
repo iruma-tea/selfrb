@@ -6,7 +6,8 @@
   ],
   "settings": {
     "[ruby]": {
-      "editor.defaultFormatter": "jnbt.vscode-rufo",
+      "ruby.useBundler": true,
+      "editor.defaultFormatter": "misogi.ruby-rubocop",
       "editor.formatOnSave": true
     },
     "files.encoding": "utf8",
@@ -14,9 +15,9 @@
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "ruby.format": "rufo",
     "ruby.intellisense": "rubyLocate",
     "ruby.useLanguageServer": true,
+    "solargraph.commandPath": "/usr/local/asdf/shims/solargraph",
     "solargraph.definitions": true,
     "solargraph.diagnostics": true,
     "code-runner.runInTerminal": true,
