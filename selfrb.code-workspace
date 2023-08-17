@@ -6,8 +6,7 @@
   ],
   "settings": {
     "[ruby]": {
-      "ruby.useBundler": true,
-      "editor.defaultFormatter": "misogi.ruby-rubocop",
+      "editor.defaultFormatter": "rebornix.ruby",
       "editor.formatOnSave": true
     },
     "files.encoding": "utf8",
@@ -17,6 +16,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "ruby.intellisense": "rubyLocate",
     "ruby.useLanguageServer": true,
+    "ruby.lint": {
+      "rubocop": {
+        "useBundler": true
+      }
+    },
+    "ruby.format": "rubocop",
     "solargraph.commandPath": "/usr/local/asdf/shims/solargraph",
     "solargraph.definitions": true,
     "solargraph.diagnostics": true,
